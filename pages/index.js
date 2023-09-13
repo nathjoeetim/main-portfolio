@@ -50,7 +50,7 @@ export default function Home() {
               Front-End Developer and tutor.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming needs. Join me down
+          I providing services for programming needs. Join me down
               below and let get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -109,7 +109,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Javascript</p>
               <p className="text-gray-800 py-1">ReactJs</p>
               <p className="text-gray-800 py-1">NextJs</p>
-              <p className="text-gray-800 py-1"> Flutter</p>
+              <p className="text-gray-800 py-1">Flutter</p>
               <p className="text-gray-800 py-1">node.js</p>
               <p className="text-gray-800 py-1">Firebase</p>
               <p className="text-gray-800 py-1">Mongodb</p>
@@ -137,7 +137,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={design} width={100} height={100} alt="design" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Areas of professional experence
+                Areas of professional experience
               </h3>
               <h4 className="py-4 text-teal-600"> 😇</h4>
               <p className="text-gray-800 py-1">
@@ -161,8 +161,7 @@ export default function Home() {
               applications the runs using DART, JAVASCRIPT, HTML, CSS, and
               TYPESCRIPT. <br />
               <span className="text-teal-500">
-                Experience in using frameworks like VS-CODE, ANDROID-STUDIO,
-                FLUTTER, NODE-JS, NEXTJS and REACT.
+                Experience in using developer editors like VS-CODE, ANDROID-STUDIO, etc.
               </span>
               Expertise interacting with JSON –WEB services and GRAPHQL
               endpoints.{" "}
@@ -183,8 +182,7 @@ export default function Home() {
               <a href="https://meals-w2k9.vercel.app/">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  style={{ width: "100%", height: "100%" }}
                   layout="responsive"
                   src={web1}
                   alt="mealWebSite"
@@ -195,8 +193,7 @@ export default function Home() {
               <a href="https://nathjoeetim-forkify-react.netlify.app">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  style={{ width: "100%", height: "100%" }}
                   layout="responsive"
                   src={web2}
                   alt="web2"
@@ -207,8 +204,7 @@ export default function Home() {
               <a href="https://menscript.com/uk">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  style={{ width: "100%", height: "100%" }}
                   layout="responsive"
                   src={web3}
                   alt="web3"
@@ -216,17 +212,17 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://www.payhelpa.com/">
-                <Image
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web4}
-                  alt="web3"
-                />
-              </a>
-            </div>
+  <a href="https://www.payhelpa.com/">
+    <Image
+      className="rounded-lg object-cover"
+      style={{ width: "100%", height: "100%" }}
+      layout="responsive"
+      src={web4}
+      alt="web3"
+    />
+  </a>
+</div>
+
           </div>
 
           <h3 className="text-3xl py-10 dark:text-white ">
@@ -261,13 +257,9 @@ export default function Home() {
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href=" https://jazzy-valkyrie-43973e.netlify.app/"
                 >
-                DesktopView Ecommerce education site
+                DesktopView education site
                 </a>
               </div>
-
-             
-              
-
         </section>
       </main>
     </div>
